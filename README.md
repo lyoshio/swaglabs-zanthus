@@ -12,7 +12,7 @@ Este documento descreve como configurar e executar os testes automatizados para 
 
 ### Variáveis de Ambiente
 
-- **.env:** Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
+- **Crie as sequintes variáveis de ambiente**:
   ```dotenv
   SWAG_USERNAME=seu_usuario
   SWAG_PASSWORD=sua_senha
