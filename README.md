@@ -1,22 +1,22 @@
-````markdown
 # Documentação do Projeto Cypress
+
+## Introdução
+
+Este documento descreve como configurar e executar os testes automatizados para o projeto Cypress.
+
+### Pré-requisitos
+
+- **Node.js e npm:** Instale a versão mais recente do Node.js e npm (ou yarn).
 
 ## Configuração do Ambiente
 
-Antes de executar os testes com Cypress, você precisa configurar duas variáveis de ambiente:
+### Variáveis de Ambiente
 
-- `SWAG_USERNAME`: Seu nome de usuário para acessar o site.
-- `SWAG_PASSWORD`: Sua senha para acessar o site.
-
-### Configurando Variáveis de Ambiente
-
-Para definir essas variáveis de ambiente, você pode criar um arquivo `.env` na raiz do seu projeto com o seguinte conteúdo:
-
-```dotenv
-SWAG_USERNAME=seu_usuario
-SWAG_PASSWORD=sua_senha
-```
-````
+- **.env:** Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
+  ```dotenv
+  SWAG_USERNAME=seu_usuario
+  SWAG_PASSWORD=sua_senha
+  ```
 
 Certifique-se de substituir `seu_usuario` e `sua_senha` pelos valores corretos.
 
